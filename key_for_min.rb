@@ -27,7 +27,7 @@ def key_for_min_value(hash)
       
     if smallest_num == 0 || value < smallest_num
       smallest_num = value
-      empty_hash = nil
+      empty_hash = key
     end 
 end
 #returns nil for an empty_hash
