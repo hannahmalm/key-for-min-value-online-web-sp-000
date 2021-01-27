@@ -23,7 +23,7 @@ def key_for_min_value(hash)
   empty_hash = nil
   #iterate over the key value pairs in the hash 
   hash.each do |key, value|
-  #if the smallest number is == 0 OR the value in the hash is < smallest number, then the smallest number = value 
+  #if the smallest number is == 0 OR the value in the hash is < smallest number, then the smallest number = value, else, the empty hash = the key 
       
     if smallest_num == 0 || value < smallest_num
       smallest_num = value
